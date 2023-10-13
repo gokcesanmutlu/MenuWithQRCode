@@ -10,7 +10,8 @@
   <pre>A coded Qr menu for restaurants and cafés.
   
 - When you click on the categories, it categorizes the products for you.
-- In this project, I first created data in Json format. Then ı pulled this data to my qr menu with the "fetch" method.
+- In this project, I first created data in Json format. 
+  Then ı pulled this data to my qr menu with the "fetch" method.
 </pre>
 <h2 id="built-with">Built With</h2>
   <ul>
