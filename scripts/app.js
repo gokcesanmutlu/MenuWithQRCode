@@ -1,20 +1,20 @@
 import { renderMenuItems, renderButtons } from './ui.js';
 
-//!HTML'den gelenler
+//! Come from HTML
 const menuList = document.querySelector('#menu-list');
 const buttonsArea = document.getElementById("buttons");
 
-//! adEventListener
+//! addEventListener
 document.addEventListener('DOMContentLoaded', () => {
   renderButtons();
   fetchMenu();
 });
 
 
-// Değişkeni global scope'da tanımladık
+// We describe variable at global scope
 let data;
 
-//menu verilerini json dosyasından çeker
+// This func. get menu data from Json file
 async function fetchMenu() {
   const res = await fetch('./db.json');
   data = await res.json();
